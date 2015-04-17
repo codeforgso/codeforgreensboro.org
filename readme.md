@@ -1,7 +1,7 @@
 ## ★ ★ ★ Code for Greensboro ★ ★ ★
 _codeforgreensboro.org_
 
-This is the marleting and information site for Code for Greensboro, the Code for America Brigade for the city of Greensboro, NC.
+This is the marketing and information site for Code for Greensboro, the Code for America Brigade for the city of Greensboro, NC.
 
 ### About
 Ruby on Rails is fast, easy to learn, and fits well with the project landscape of Code for America. This application should probably run without a model, or with a very minimal model for page content. We handle static pages with [High Voltage](https://github.com/thoughtbot/high_voltage), which allows us to keep Rails conventions like layouts and views but without the overhead of a dedicated Pages controller.
