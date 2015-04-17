@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
+
 body {
   @include font-feature-settings("kern", "liga", "pnum");
   -webkit-font-smoothing: antialiased;
@@ -14,13 +16,41 @@ h4,
 h5,
 h6 {
   font-family: $heading-font-family;
-  font-size: $base-font-size;
   line-height: $heading-line-height;
   margin: 0 0 $small-spacing;
+  color: #444;
+  font-weight: 200;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.4;
+  color: #efefef;
+  font-weight: 100;
+  &.xl {
+    font-size: 4rem;
+  }
+}
+
+h2 {
+  font-size: 2.75rem;
+  line-height: 1.4;
+}
+h3 {
+  font-size: 2.15rem;
+  line-height: 1.3;
+}
+h4 {
+  font-size: 1.75rem;
+  line-height: 1.2;
 }
 
 p {
   margin: 0 0 $small-spacing;
+  color: #666;
+  &.small {
+    font-size: 90%;
+  }
 }
 
 a {
@@ -52,4 +82,15 @@ img,
 picture {
   margin: 0;
   max-width: 100%;
+}
+
+// Add-ons
+//
+
+.is-centered {
+  text-align: center;
+}
+
+.blue {
+  color: $blue;
 }
