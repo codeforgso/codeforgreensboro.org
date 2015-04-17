@@ -21,6 +21,7 @@ gem 'nav_lynx',               '~> 1.1.1'
 gem 'figaro',                 '~> 1.1.0'
 gem 'metamagic',              '~> 3.1.6'
 gem 'hologram',               '~> 1.3.1'
+gem 'meetup_client'
 
 gem 'bourbon';
 gem 'neat';

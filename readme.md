@@ -31,6 +31,9 @@ You can nest pages in a directory structure, if that makes sense from a URL pers
 
 Bam.
 
+### Other dependencies
+- https://github.com/cranieri/meetup_client
+
 ### Getting up and running
 - You should have [Ruby](https://www.ruby-lang.org/en/) installed, as well as [Rails](http://rubyonrails.org/)
 - Clone this repository

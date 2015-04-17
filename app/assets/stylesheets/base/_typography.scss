@@ -29,6 +29,7 @@ h1 {
   font-weight: 100;
   &.xl {
     font-size: 4rem;
+    margin-bottom: $small-spacing;
   }
 }
 
@@ -89,6 +90,10 @@ picture {
 
 .is-centered {
   text-align: center;
+}
+
+.brighten {
+  color: #fff;
 }
 
 .blue {
