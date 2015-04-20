@@ -9,3 +9,8 @@ Application	config/application.rb	/^  class Application < Rails::Application$/;"
 ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
 ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
 CodeforgreensboroOrg	config/application.rb	/^module CodeforgreensboroOrg$/;"	m
+PagesController	app/controllers/pages_controller.rb	/^class PagesController < ApplicationController$/;"	c
+PagesControllerTest	test/controllers/pages_controller_test.rb	/^class PagesControllerTest < ActionController::TestCase$/;"	c
+PagesHelper	app/helpers/pages_helper.rb	/^module PagesHelper$/;"	m
+layout_for_page	app/controllers/pages_controller.rb	/^  def layout_for_page$/;"	f	class:PagesController
+markdown	app/helpers/application_helper.rb	/^	def markdown(text)$/;"	f	class:ApplicationHelper

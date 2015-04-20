@@ -29,13 +29,35 @@ section {
 	}
 }
 
-// Primitives
+// Primitives/block level modifiers
 //
 // Adds structure to full-width content blocks
 
 .content {
 	@include outer-container;
 	padding: $base-spacing 0;
+}
+
+header.internal {
+	background: $red;
+	h2 {
+		color: #fff;
+		margin: 0;
+	}
+}
+
+.leftcolumn {
+	@include span-columns(9);
+}
+.sidebar {
+	@include span-columns(3);
+
+	h2 {
+		font-size: 120%;
+	}
+	p {
+		font-size: 90%;
+	}
 }
 
 // Blocks

@@ -179,7 +179,6 @@ GEM
     mail_form (1.5.1)
       actionmailer (>= 3.2, < 5)
       activemodel (>= 3.2, < 5)
-    meetup_client (0.0.6)
     metamagic (3.1.7)
       rails (>= 3.0.0)
     method_source (0.8.2)
@@ -347,7 +346,6 @@ DEPENDENCIES
   jquery-turbolinks (~> 2.1.0)
   launchy (~> 2.3.0)
   mail_form (~> 1.5.0)
-  meetup_client
   metamagic (~> 3.1.6)
   nav_lynx (~> 1.1.1)
   neat

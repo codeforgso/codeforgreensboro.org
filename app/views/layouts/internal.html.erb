@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= yield(:page_title) %> | Code For Greensboro</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= render "shared/navigation" %>
+
+	<%= yield %>
+
+<%= render "shared/footer" %>
+
+</body>
+</html>
