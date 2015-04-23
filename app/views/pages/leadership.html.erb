@@ -1,4 +1,4 @@
-<%= content_for :page_title, 'Leadership' %>
+<%= content_for :page_title, 'Leadership Team' %>
 
 <header class="internal">
 	<div class="content">
@@ -7,26 +7,72 @@
 </header>
 
 <div class="content">
-	<div class="leftcolumn">
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+	<div class="card">
+		<div class="portrait">
+			<%=image_tag "ac.jpg" %>
+		</div>
+		<h4>Anita Cafiero</h4>
+		<h5>Co-Captain</h5>
+		<p class="is-centered">
+			<%=mail_to "anita@codeforgreensboro.org", "anita@codeforgreensboro.org" %>
+		</p>
 		</p>
 	</div>
 
-	<aside class="sidebar">
-		<h2>Other Stuff</h2>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	<div class="card">
+		<div class="portrait">
+			<%=image_tag "nj.jpg" %>
+		</div>
+		<h4>Nick Jones</h4>
+		<h5>Co-Captain</h5>
+		<p class="is-centered">
+			<%=mail_to "nick@codeforgreensboro.org","nick@codeforgreensboro.org" %>
 		</p>
-	</aside>
+	</div>
+
+	<div class="card">
+		<div class="portrait">
+			<%=image_tag "jm.jpg" %>
+		</div>
+		<h4>Jason Marshall</h4>
+		<h5>Data Wrangler</h5>
+		<p class="is-centered">
+			<%=mail_to "jason@codeforgreensboro.org","jason@codeforgreensboro.org" %>
+		</p>
+	</div>
+
+	<div class="card">
+		<div class="portrait">
+			<%=image_tag "jc.jpg" %>
+		</div>
+		<h4>Jordan Cauley</h4>
+		<h5>Developer Evangelist</h5>
+		<p class="is-centered">
+			<%=mail_to "jordan@codeforgreensboro.org","jordan@codeforgreensboro.org" %>
+		</p>
+	</div>
+
+	<div class="card">
+		<div class="portrait">
+			<%=image_tag "jmo.jpg" %>
+		</div>
+		<h4>John Moore</h4>
+		<h5>Storyteller</h5>
+		<p class="is-centered">
+			<%=mail_to "john.m@codeforgreensboro.org","john.m@codeforgreensboro.org" %>
+		</p>
+	</div>
+
+	<div class="card">
+		<div class="portrait">
+			<%=image_tag "bp.jpg" %>
+		</div>
+		<h4>Buddy Patton</h4>
+		<h5>Policy Evangelist</h5>
+		<p class="is-centered">
+			<%=mail_to "buddy@codeforgreensboro.org","buddy@codeforgreensboro.org" %>
+		</p>
+	</div>
+
 </div>

@@ -1,10 +1,13 @@
 <header id="navigation">
 	<ul class="nav">
-		<li><strong>Code for Greensboro</strong></li>
+		<li>
+			<%=link_to root_path do %>
+				<%=image_tag "logo.png", width: "140px", class: "home-button" %>
+			<% end %>
+		</li>
 		<li><%=link_to "Home", root_path %></li>
 		<li><%=link_to "About", page_path('about') %></li>
-		<li>Projects</li>
 		<li><%=link_to "Leadership", page_path('leadership') %></li>
-		<li>Contact</li>
+		<li><%=link_to "Contact Us", page_path('contact') %></li>
 	</ul>
 </header>

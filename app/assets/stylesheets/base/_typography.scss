@@ -48,6 +48,7 @@ h4 {
 h5 {
   font-size: 1.25rem;
   line-height: 1.2;
+  color: $blue;
 }
 
 p {
@@ -81,6 +82,14 @@ hr {
   border-right: none;
   border-top: none;
   margin: $base-spacing 0;
+}
+
+blockquote {
+  border-left: 3px solid #ccc;
+  margin-left: 0;
+  padding-left: $base-spacing;
+  font-style: italic;
+  color: #666;
 }
 
 img,

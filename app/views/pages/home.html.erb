@@ -1,11 +1,11 @@
 <%= content_for :page_title, 'Home' %>
 
-<section id="hero">
+<section class="hero">
 	<div class="content">
 		<h1 class="xl">
 			Leveraging open civic data and collaboration to make Greensboro, NC even better.
 		</h1>
-		<h4 class="brighten">Next Meeting: April 22, 2015</h4>
+		<h4 class="brighten">Next Meeting: May 20, 2015 @ Co//ab</h4>
 	</div>
 </section>
 
@@ -17,7 +17,7 @@
 
 <%= @events %>
 
-<section id="top-deck">
+<section class="top-deck">
 	<div class="content">
 		<div class="panel two-up">
 			<h4 class="blue">What We Do</h4>
@@ -35,31 +35,27 @@
 	</div>
 </section>
 
-<section id="calls">
+<section class="calls">
 	<div class="content">
 
 		<div class="panel four-up">
-			<h4>Next Meeting: April 22, 2015</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut.</p>
+			<h4>May 20. 2015</h4>
+			<p>Join us at Co//ab as we discuss future projects and brainstorm for the Civic Hackathon on June 6.</p>
 		</div>
 
 		<div class="panel four-up">
-			<h4>Join Us</h4>
-			<p>We meet the third Thursday of each month from 6 PM-9 PM.</p>
+			<h4>Attend A Meeting</h4>
+			<p>We meet the fourth Wednesday of each month from 6:30 PM-8:30 PM.</p>
 		</div>
 
 		<div class="panel four-up">
-			<h4>Hack With Us</h4>
-			<p>Or suggest one we haven't even thought of.</p>
+			<h4>Slack With Us</h4>
+			<p>Join the <%=link_to "Code for Greensboro Slack channel", "http://slack.codeforgreensboro.org" %> to talk to us about ideas or say hello.</p>
 		</div>
 
 		<div class="panel four-up">
 			<h4>Meetup Group</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud</p>
+			<p><%=link_to "Join our Meetup group", "http://www.meetup.com/Code-for-Greensboro" %> to be notified of new events and happenings.</p>
 		</div>
 	</div>
 </section>

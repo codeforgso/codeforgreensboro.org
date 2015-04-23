@@ -33,6 +33,7 @@ dl {
 header#navigation {
   ul {
     @include outer-container;
+    margin-bottom: -8px;
     li {
       float: left;
       margin-right: $base-spacing;

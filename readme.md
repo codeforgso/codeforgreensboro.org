@@ -31,7 +31,7 @@ You can nest pages in a directory structure, if that makes sense from a URL pers
 
 Bam.
 
-### Other dependencies
+### Other dependencies (which we may not even be using yet)
 - https://github.com/cranieri/meetup_client
 
 ### Getting up and running
@@ -41,6 +41,9 @@ Bam.
 - Make your changes
 - Submit a pull request
 - Literally save the world
+
+### Future States
+- Use [Markdown for views](http://stackoverflow.com/questions/4163560/how-can-i-automatically-render-partials-using-markdown-in-rails-3/10131299#10131299)
 
 ### Help
 If you get stuck, help info will go here (Slack, etc.)

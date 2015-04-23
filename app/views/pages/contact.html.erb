@@ -1,0 +1,31 @@
+<%= content_for :page_title, 'Contact Us' %>
+
+<header class="internal">
+	<div class="content">
+		<h2 class="darken"><%= yield :page_title %></h2>
+	</div>
+</header>
+
+<section class="wide-image">
+	<%= image_tag('hackathon-wp7.jpg') %>
+</section>
+
+<div class="content">
+	<div class="leftcolumn">
+		<h4>Email Us</h4>
+		<p>Send us questions, comments, and ideas at hello@codeforgreensboro.org</p>
+
+		<h4>Social Media</h4>
+		<p>Tweet to us <%=link_to "@codeforgso", "http://www.twitter.com/codeforgso" %></p>
+
+		<h4>On Github</h4>
+		<p>Visit our team, support pages and more at <%=link_to "Github", "http://www.github.com/codeforgso" %></p>
+
+		<h4>Meetup Group</h4>
+		<p>The best way to contact us is at a meeting. <%=link_to "Come join us", "http://www.meetup.org/CodeForGreensboro" %>, attend a meeting, and find a spot with us making Greensboro better.</p>
+	</div>
+
+	<aside class="sidebar">
+		<!-- empty sidebar - please add content -->	
+	</aside>
+</div>

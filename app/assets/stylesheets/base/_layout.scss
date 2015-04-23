@@ -2,30 +2,37 @@
 // codeforgreensboro.org
 
 section {
-	&#hero {
+	&.hero {
 		background: $red image-url('gsoskyline.jpg') center -80px no-repeat fixed;
 		background-size: cover;
 		min-height: 600px;
 		padding-top: 8%;
 	}
-	&#top-deck {
+	&.top-deck {
 		position: relative;
 		&:before {
 			content: "";
 			width: 100%;
 			height: 90px;
 			position: absolute;
-			top: -240px;
+			top: -220px;
 			left: 0;
 			background: image-url('wave.png') center center no-repeat;
 			background-size: cover;
 		}
 	}
-	&#calls {
+	&.calls {
 		background: 
 			image-url('stripes-large.png') top center no-repeat,
 			image-url('objects-002.png') repeat;
 		padding-top: $base-spacing*12;
+	}
+	&.wide-image {
+		overflow: hidden;
+		height: $base-spacing*12;
+		img {
+			width: 300%;
+		}
 	}
 }
 
@@ -46,20 +53,6 @@ header.internal {
 	}
 }
 
-.leftcolumn {
-	@include span-columns(9);
-}
-.sidebar {
-	@include span-columns(3);
-
-	h2 {
-		font-size: 120%;
-	}
-	p {
-		font-size: 90%;
-	}
-}
-
 // Blocks
 //
 // Reusable grid members
@@ -77,6 +70,30 @@ header.internal {
 	}
 	&.four-up {
 		@include span-columns(3);
+
+		h4 {
+			margin-bottom: $small-spacing/2;
+		}
+	}
+}
+
+.card {
+	position: relative;
+	@include span-columns(3.90);
+	border: 5px solid #d7d7d7;
+	padding: $base-spacing*3 $base-spacing $small-spacing;
+	margin-top: $base-spacing*2.5;
+	background-size: cover;
+
+	h4, h5 {
+		margin: 0;
+		text-align: center;
+	}
+	h5 {
+		margin-bottom: $small-spacing;
+	}
+	p {
+		font-size: 95%;
 	}
 }
 
@@ -84,6 +101,49 @@ header.internal {
 //
 // Specific parts of our base layout
 
+.leftcolumn {
+	@include span-columns(9);
+	&.has-top-padding {
+		padding-top: $base-spacing*1.3;
+	}
+}
+.sidebar {
+	@include span-columns(3);
+
+	h2 {
+		font-size: 120%;
+	}
+	p {
+		font-size: 90%;
+	}
+}
+
 footer {
 	background: $neutral;
+}
+
+// Images
+//
+// Stuff for images
+
+.portrait {
+	border-radius: 200px;
+	width: 140px;
+	height: 140px;
+	overflow: hidden;
+	float: right;
+	margin: 0 0 $small-spacing $small-spacing;
+}
+.card {
+	.portrait {
+		width: 90px;
+		height: 90px;
+		position: absolute;
+		top: -45px;
+		left: 35%;
+		border: 5px solid $red;
+	}
+}
+.home-button {
+	margin-top: 1px;
 }
