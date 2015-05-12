@@ -3,7 +3,7 @@
 
 section {
 	&.hero {
-		background: $red image-url('gsoskyline.jpg') center -500px no-repeat fixed;
+		background: $red image-url('gsoskyline.jpg') center top no-repeat fixed;
 		background-size: cover;
 		min-height: 600px;
 		padding-top: 8%;
