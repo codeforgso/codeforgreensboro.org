@@ -3,7 +3,7 @@
 
 section {
 	&.hero {
-		background: $red image-url('gsoskyline.jpg') center -80px no-repeat fixed;
+		background: $red image-url('gsoskyline.jpg') center -500px no-repeat fixed;
 		background-size: cover;
 		min-height: 600px;
 		padding-top: 8%;
@@ -43,6 +43,11 @@ section {
 .content {
 	@include outer-container;
 	padding: $base-spacing 0;
+}
+
+.content-narrow {
+	@include outer-container;
+	padding: $base-spacing $base-spacing*8;
 }
 
 header.internal {
@@ -118,6 +123,33 @@ header.internal {
 	}
 }
 
+.banner {
+	background: #111;
+	text-align: center;
+
+	h2, h5 {
+		margin: 0;
+	}
+
+	h2 {
+		font-size: 1.3rem;
+		font-weight: bold;
+		color: lighten($blue, 10%);
+		line-height: 1;
+	}
+	.join {
+		color: #fff;
+		font-weight: lighter;
+		background: $attention;
+		padding: 6px 12px;
+		margin-left: $small-spacing;
+		border-radius: 8px;
+		a {
+			color: #fff;
+		}
+	}
+}
+
 footer {
 	background: $neutral;
 }
@@ -146,4 +178,11 @@ footer {
 }
 .home-button {
 	margin-top: 1px;
+}
+
+.left {
+	float: left;
+}
+.right {
+	float: right;
 }

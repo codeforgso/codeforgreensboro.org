@@ -29,3 +29,16 @@ button {
     opacity: 0.5;
   }
 }
+
+
+.register {
+  background: $attention;
+  color: #fff;
+  padding: 6px 12px;
+  text-align: center;
+  font-size: 1.4rem;
+  border-radius: 8px;
+  a {
+    color: #fff;
+  }
+}
