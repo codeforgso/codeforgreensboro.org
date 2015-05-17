@@ -30,7 +30,7 @@ dl {
   }
 }
 
-header#navigation {
+header.navigation {
   ul {
     @include outer-container;
     margin-bottom: -8px;
