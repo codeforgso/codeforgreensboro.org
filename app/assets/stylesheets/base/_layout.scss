@@ -19,6 +19,9 @@ section {
 			left: 0;
 			background: image-url('wave.png') center center no-repeat;
 			background-size: cover;
+			@include media($small-screen) {
+				display: none;
+			}
 		}
 	}
 	&.calls {
@@ -71,18 +74,38 @@ header.internal {
 		@include span-columns(6);
 		@include media($small-screen) {
   		@include span-columns(12);
-  		border: 1px solid red;
+  		padding: $base-spacing*2;
   	}
 	}
 	&.three-up {
 		@include span-columns(4);
+		@include media($small-screen) {
+  		@include span-columns(6);
+  		padding: $base-spacing*2;
+  		ul {
+  			@include span-columns(6);
+  			li {
+  				font-size: 2rem;
+  			}
+  		}
+  		h5 {
+  			font-size: 3rem;
+  		}
+  		p {
+  			font-size: 2rem;
+  		}
+  	}
 	}
 	&.four-up {
 		@include span-columns(3);
 		@include media($small-screen) {
   		@include span-columns(12);
-  		* {
-  			font-size: 180%;
+  		padding: $base-spacing*2;
+  		h4 {
+  			font-size: 3rem;
+  		}
+  		p {
+  			font-size: 2rem;
   		}
   	}
 
