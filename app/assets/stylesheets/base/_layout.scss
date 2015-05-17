@@ -69,12 +69,22 @@ header.internal {
 .panel {
 	&.two-up {
 		@include span-columns(6);
+		@include media($small-screen) {
+  		@include span-columns(12);
+  		border: 1px solid red;
+  	}
 	}
 	&.three-up {
 		@include span-columns(4);
 	}
 	&.four-up {
 		@include span-columns(3);
+		@include media($small-screen) {
+  		@include span-columns(12);
+  		* {
+  			font-size: 180%;
+  		}
+  	}
 
 		h4 {
 			margin-bottom: $small-spacing/2;

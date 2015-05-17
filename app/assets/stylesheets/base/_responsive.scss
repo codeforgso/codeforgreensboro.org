@@ -1,0 +1,18 @@
+/*
+	title  : responsive.scss
+	package: codeforgreensboro.org
+	author : nickmjones
+	version: 1.0
+*/
+
+.hero {
+	@include media($small-screen) {
+		padding: 0 $base-spacing*2;
+  }
+}
+
+footer {
+	@include media($small-screen) {
+		padding: $base-spacing;
+  }
+}
