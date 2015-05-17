@@ -1,0 +1,65 @@
+/*
+	title  : responsive.scss
+	package: codeforgreensboro.org
+	author : nickmjones
+	version: 1.0
+*/
+
+
+// Desktop
+//
+
+@include media($desktop) {
+
+	body {
+		font-size: 100% !important;
+	}
+
+	.content {
+		@include outer-container;
+		padding: $base-spacing 0;
+	}
+
+	section {
+		&.hero {
+			padding: 8% $base-spacing $base-spacing;
+		}
+		&.top-deck {
+			&:before {
+				display: block;
+			}
+		}
+		&.calls {
+			padding-top: $base-spacing*12;
+		}
+	}
+
+
+
+	header.internal {
+		padding: 0;
+	}
+
+	.panel {
+		&.two-up {
+			@include span-columns(6);
+		}
+		&.three-up {
+			@include span-columns(4);
+		}
+		&.four-up {
+			@include span-columns(3);
+
+			h4 {
+				margin-bottom: $small-spacing/2;
+			}
+		}
+	}
+
+	.leftcolumn {
+		padding: 0;		
+	}
+
+}
+
+

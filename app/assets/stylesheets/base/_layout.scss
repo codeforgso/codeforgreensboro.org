@@ -1,12 +1,16 @@
 // Code for Greensboro 1.2
 // codeforgreensboro.org
 
+body {
+	font-size: 200% !important;
+}
+
 section {
 	&.hero {
 		background: $red image-url('gsoskyline.jpg') center top no-repeat fixed;
 		background-size: cover;
 		min-height: 600px;
-		padding-top: 8%;
+		padding: $base-spacing;
 	}
 	&.top-deck {
 		position: relative;
@@ -19,13 +23,14 @@ section {
 			left: 0;
 			background: image-url('wave.png') center center no-repeat;
 			background-size: cover;
+			display: none;
 		}
 	}
 	&.calls {
 		background: 
 			image-url('stripes-large.png') top center no-repeat,
 			image-url('objects-002.png') repeat;
-		padding-top: $base-spacing*12;
+		padding-top: $base-spacing*6;
 	}
 	&.wide-image {
 		overflow: hidden;
@@ -42,7 +47,7 @@ section {
 
 .content {
 	@include outer-container;
-	padding: $base-spacing 0;
+	padding: $base-spacing;
 }
 
 .content-narrow {
@@ -68,13 +73,13 @@ header.internal {
 
 .panel {
 	&.two-up {
-		@include span-columns(6);
+		@include span-columns(12);
 	}
 	&.three-up {
 		@include span-columns(4);
 	}
 	&.four-up {
-		@include span-columns(3);
+		@include span-columns(12);
 
 		h4 {
 			margin-bottom: $small-spacing/2;
@@ -108,6 +113,7 @@ header.internal {
 
 .leftcolumn {
 	@include span-columns(9);
+	padding: $base-spacing*2;
 	&.has-top-padding {
 		padding-top: $base-spacing*1.3;
 	}
