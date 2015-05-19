@@ -11,10 +11,6 @@
 
 @include media($desktop) {
 
-	body {
-		font-size: 100% !important;
-	}
-
 	.content {
 		@include outer-container;
 		padding: $base-spacing 0;
@@ -22,6 +18,8 @@
 
 	section {
 		&.hero {
+			background: $red image-url('gsoskyline.jpg') center top no-repeat fixed;
+			background-size: cover;
 			padding: 8% $base-spacing $base-spacing;
 		}
 		&.top-deck {
@@ -52,14 +50,17 @@
 
 			h4 {
 				margin-bottom: $small-spacing/2;
+				font-size: 1.75rem;
+			}
+
+			p {
+				font-size: 1.5rem;
 			}
 		}
 	}
 
 	.leftcolumn {
-		padding: 0;		
+		padding: 0;
 	}
 
 }
-
-
