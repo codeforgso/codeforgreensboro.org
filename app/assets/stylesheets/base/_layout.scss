@@ -1,9 +1,13 @@
-// Code for Greensboro 1.2
-// codeforgreensboro.org
+/*
+	title  : layout.scss
+	package: codeforgreensboro.org
+	author : nickmjones
+	version: 1.0
+*/
 
 section {
 	&.hero {
-		background: $red image-url('gsoskyline.jpg') top center no-repeat fixed;
+		background: $red image-url('gsoskyline.jpg') left -600px no-repeat fixed;
 		background-size: cover;
 		min-height: 600px;
 		padding: $base-spacing;

@@ -19,7 +19,7 @@
 	section {
 		&.hero {
 			background: $red image-url('gsoskyline.jpg') center top no-repeat fixed;
-			background-size: cover;
+			background-size: contain;
 			padding: 8% $base-spacing $base-spacing;
 		}
 		&.top-deck {
@@ -44,6 +44,14 @@
 		}
 		&.three-up {
 			@include span-columns(4);
+			p {
+				font-size: 1rem;
+			}
+			ul {
+				li {
+					font-size: 1rem;
+				}
+			}
 		}
 		&.four-up {
 			@include span-columns(3);
