@@ -1,0 +1,8 @@
+
+<% @tweets.each do |tweet| %>
+  <div class="tweet-block">
+    <h2><%= tweet.user.screen_name %></h2>
+    <p><%= tweet.text %></p>
+    <h5>Tweeted about <strong><%= distance_of_time_in_words(Time.now, tweet.created_at) %></strong> ago</h5>
+  </div>
+<% end %>

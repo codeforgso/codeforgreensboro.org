@@ -21,6 +21,7 @@ gem 'nav_lynx',               '~> 1.1.1'
 gem 'figaro',                 '~> 1.1.0'
 gem 'metamagic',              '~> 3.1.6'
 gem 'hologram',               '~> 1.3.1'
+gem 'twitter'
 
 gem 'bourbon';
 gem 'neat';
@@ -46,17 +47,16 @@ end
 group :development, :test do
   gem 'rb-readline'
   gem 'pry'
-  gem 'pry-remote'           
-  gem 'pry-rails'            
-  gem 'pry-nav'              
-  gem 'awesome_print'        
-  gem 'guard'                
-  gem 'guard-bundler'        
-  gem 'guard-compass'        
-  gem 'guard-sass'           
-  gem 'guard-livereload'     
-  gem 'guard-ctags-bundler'  
-  gem 'guard-puma'           
+  gem 'pry-remote'
+  gem 'pry-rails'
+  gem 'pry-nav'
+  gem 'awesome_print'
+  gem 'guard'
+  gem 'guard-bundler'
+  gem 'guard-compass'
+  gem 'guard-sass'
+  gem 'guard-livereload'
+  gem 'guard-puma'
 end
 
 group :test do
