@@ -223,13 +223,13 @@ h1.tweet {
 }
 
 .tweet-block {
+	@include span-columns(3.73);
 	background: lighten(#494451, 10%);
 	border-top: 1px solid lighten(#494451, 18%);
-	@include span-columns(2);
 	margin: $base-spacing;
 	padding: $base-spacing;
 	position: relative;
-	min-height: 260px;
+	min-height: 240px;
 	display: none;
 
 	&:after {
@@ -258,6 +258,9 @@ h1.tweet {
 		font-size: 1rem;
 		text-transform: uppercase;
 		color: #fff;
+		position: absolute;
+		left: $base-spacing;
+		bottom: $base-spacing;
 	}
 }
 body.wall {

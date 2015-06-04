@@ -11,6 +11,6 @@ class WallController < ApplicationController
     end
 
     # print latest status
-    @tweets = client.search('#hack4gso').take(30)
+    @tweets = client.search('#hack4gso').take(9)
   end
 end
