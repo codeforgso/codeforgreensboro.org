@@ -31,16 +31,24 @@ dl {
 }
 
 header.navigation {
+  background: #283944;
   ul {
     @include outer-container;
     margin-bottom: -8px;
     li {
       float: left;
       margin-right: $base-spacing;
-      line-height: $base-spacing*2;
       text-transform: uppercase;
       font-size: 90%;
-      color: $blue;
+      color: #fff;
+      height: 80px;
+      line-height: 77px;
+      a {
+        color: lighten(#283944, 45%);
+      }
+      &.home-button {
+        padding-top: $small-spacing;
+      }
     }
   }
 }

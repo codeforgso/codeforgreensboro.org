@@ -27,6 +27,7 @@ gem 'bourbon';
 gem 'neat';
 gem 'bitters';
 gem 'high_voltage'
+gem 'rdiscount'
 gem 'clrs';
 
 # For super light CMS

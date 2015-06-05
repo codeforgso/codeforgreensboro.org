@@ -6,11 +6,28 @@
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body id="internal">
+
+<%= render "shared/banner" %>
 
 <%= render "shared/navigation" %>
 
+<header class="internal">
+	<div class="content">
+		<h2 class="darken"><%= yield :page_title %></h2>
+	</div>
+</header>
+
+<% if content_for?(:page_image) %>
+  <section class="wide-image">
+    <%= image_tag yield :page_image %>
+  </section>
+<% end %>
+
+
+<div class="content">
 	<%= yield %>
+</div>
 
 <%= render "shared/footer" %>
 

@@ -1,19 +1,11 @@
 <%= content_for :page_title, 'About Us' %>
 
-<header class="internal">
-	<div class="content">
-		<h2 class="darken"><%= yield :page_title %></h2>
-	</div>
-</header>
-
-<section class="wide-image">
-	<%= image_tag('hackathon-wp7.jpg') %>
-</section>
+<%= content_for :page_image, 'hackathon-wp7.jpg' %>
 
 <div class="content">
 	<div class="leftcolumn">
 		<p>
-		The Code for America mission is, in part, to 
+		The Code for America mission is, in part, to
 		<blockquote>build open source technology and organize a network of people dedicated to making government services simple, effective, and easy to use.</blockquote>
 		</p>
 
@@ -29,8 +21,4 @@
 
 		<p>The short answer is, "nope". We need people from all walks of life to participate. Of course we need developers, designers, user experience and user interface types, and project managers. But you may not know that we also need urban planners, software testers, photographers, bloggers, product managers, and anyone else who wants to make technology access better in the Gate City. As we always say, we need the <em>community</em>.</p>
 	</div>
-
-	<aside class="sidebar">
-		<!-- empty sidebar - please add content -->	
-	</aside>
 </div>

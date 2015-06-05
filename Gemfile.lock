@@ -265,6 +265,7 @@ GEM
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     rb-readline (0.5.2)
+    rdiscount (2.1.8)
     redcarpet (3.2.3)
     responders (2.1.0)
       railties (>= 4.2.0, < 5)
@@ -380,6 +381,7 @@ DEPENDENCIES
   rails_12factor
   rails_log_stdout!
   rb-readline
+  rdiscount
   redcarpet
   rspec-rails (~> 3.0.1)
   sass-rails
