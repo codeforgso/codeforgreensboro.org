@@ -215,7 +215,7 @@ footer {
 
 .content-wall {
 	@include outer-container;
-	padding: 0;
+	padding: $base-spacing;
 }
 
 h1.tweet {
