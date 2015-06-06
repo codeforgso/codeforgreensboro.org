@@ -213,6 +213,11 @@ footer {
 //
 // Containers for showing tweets
 
+.content-wall {
+	@include outer-container;
+	padding: 0;
+}
+
 h1.tweet {
 	color: lighten(#494451, 20%);
 	font-weight: bold;
@@ -221,10 +226,11 @@ h1.tweet {
 }
 
 .tweet-block {
-	@include span-columns(3.73);
+	@include span-columns(4);
+	@include omega(3n);
 	background: lighten(#494451, 10%);
 	border-top: 1px solid lighten(#494451, 18%);
-	margin: $base-spacing;
+	margin-bottom: $base-spacing*2;
 	padding: $base-spacing;
 	position: relative;
 	min-height: 240px;
