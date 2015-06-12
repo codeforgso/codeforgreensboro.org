@@ -22,6 +22,7 @@ gem 'figaro',                 '~> 1.1.0'
 gem 'metamagic',              '~> 3.1.6'
 gem 'hologram',               '~> 1.3.1'
 gem 'twitter'
+gem "github_api"
 
 gem 'bourbon';
 gem 'neat';
