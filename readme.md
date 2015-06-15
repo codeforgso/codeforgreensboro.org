@@ -47,4 +47,4 @@ Bam.
 - Use [Markdown for views](http://stackoverflow.com/questions/4163560/how-can-i-automatically-render-partials-using-markdown-in-rails-3/10131299#10131299)
 
 ### Help
-If you get stuck, help info will go here (Slack, etc.)
+If you get stuck, send us a message on [Slack](http://slack.codeforgreensboro.org). 
