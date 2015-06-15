@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/codeforgso/codeforgreensboro.org.png?label=ready&title=Ready)](https://waffle.io/codeforgso/codeforgreensboro.org)
 ## ★ ★ ★ Code for Greensboro ★ ★ ★
 _codeforgreensboro.org_
 
