@@ -32,6 +32,31 @@
 		}
 	}
 
+	.column-left {
+		@include span-columns(7);
+	}
+	.column-right {
+		@include span-columns(5);
+
+		.hgroup {
+			margin-bottom: $small-spacing !important;
+			h4 {
+				font-size: 1.4rem !important;
+			}
+			h5 {
+				font-size: 1rem !important;
+			}
+		}
+
+		table {
+			tr {
+				td {
+					border: 0;
+				}
+			}
+		}
+	}
+
 
 
 	header.internal {

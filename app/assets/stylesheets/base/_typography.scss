@@ -48,7 +48,7 @@ h4 {
 h5 {
   font-size: 1.25rem;
   line-height: 1.2;
-  color: $blue;
+  color: $attention;
 }
 
 p {
@@ -71,7 +71,7 @@ p {
 }
 
 a {
-  color: $action-color;
+  color: darken($action-color, 15%);
   text-decoration: none;
   transition: color 0.1s linear;
 

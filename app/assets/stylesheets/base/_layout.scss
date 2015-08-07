@@ -125,6 +125,7 @@ header.internal {
 	}
 }
 
+
 // Page parts
 //
 // Specific parts of our base layout
@@ -184,21 +185,10 @@ footer {
 
 .portrait {
 	border-radius: 200px;
-	width: 140px;
-	height: 140px;
 	overflow: hidden;
-	float: right;
-	margin: 0 0 $small-spacing $small-spacing;
-}
-.card {
-	.portrait {
-		width: 90px;
-		height: 90px;
-		position: absolute;
-		top: -45px;
-		left: 35%;
-		border: 5px solid $red;
-	}
+	width: 100px;
+	height: 100px;
+	margin: 0 $base-spacing 0 0;
 }
 
 

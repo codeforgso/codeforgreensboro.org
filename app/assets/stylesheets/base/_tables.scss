@@ -4,6 +4,17 @@ table {
   margin: $small-spacing 0;
   table-layout: fixed;
   width: 100%;
+
+  &.team {
+    td {
+      h4, h5 {
+        margin: 0 !important;
+      }
+      p {
+        margin: 0 !important;
+      }
+    }
+  }
 }
 
 th {

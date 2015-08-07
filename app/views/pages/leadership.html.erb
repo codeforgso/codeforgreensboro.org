@@ -1,84 +1,225 @@
-<%= content_for :page_title, 'Leadership Team' %>
+<%= content_for :page_title, 'Our Team' %>
 
 <div class="content">
 
-	<div class="card">
-		<div class="portrait">
-			<%=image_tag "ac.jpg" %>
-		</div>
-		<h4>Anita Cafiero</h4>
-		<h5>Co-Captain</h5>
-		<p class="is-centered">
-			<%=mail_to "anita@codeforgreensboro.org", "anita@codeforgreensboro.org" %>
-		</p>
-		</p>
-	</div>
+	<div class="column-left">
+		<table class="team">
+		<h5>Leadership Team</h5>
+		<tr>
+			<td width="19%">
+				<div class="portrait">
+					<%=image_tag "ac.jpg" %>
+				</div>
+			</td>
+			<td class="hgroup">
+				<h4>Anita Cafiero</h4>
+				<h5>Co-Captain</h5>
+				<p>
+					<%=mail_to "anita@codeforgreensboro.org", "anita@codeforgreensboro.org" %>
+				</p>
+			</td>
+			<td>
+				<span class="social is-active twitter">
+					<%=link_to "http://www.twitter.com/sommanita", "http://www.twitter.com/sommanita" %>
+				</span>
+				<span class="social is-active github">
+					<%=link_to "http://www.github.com/sommanita", "http://www.github.com/sommanita" %>
+				</span>
+				<span class="social dribbble"></span>
+			</td>
+		</tr>
+		<tr>
+			<td width="19%">
+				<div class="portrait">
+					<%=image_tag "nj.jpg" %>
+				</div>
+			</td>
+			<td class="hgroup">
+				<h4>Nick Jones</h4>
+				<h5>Co-Captain</h5>
+				<p>
+					<%=mail_to "nick@codeforgreensboro.org", "nick@codeforgreensboro.org" %>
+				</p>
+			</td>
+			<td>
+				<span class="social is-active twitter">
+					<%=link_to "http://www.twitter.com/nickmjones", "http://www.twitter.com/nickmjones" %>
+				</span>
+				<span class="social is-active github">
+					<%=link_to "http://www.github.com/nickmjones", "http://www.github.com/nickmjones" %>
+				</span>
+				<span class="social is-active dribbble">
+					<%=link_to "http://www.dribbble.com/tinygoatstudio", "http://www.dribbble.com/tinygoatstudio" %>
+				</span>
+			</td>
+		</tr>
+		<tr>
+			<td width="19%">
+				<div class="portrait">
+					<%=image_tag "jm.jpg" %>
+				</div>
+			</td>
+			<td class="hgroup">
+				<h4>Jason Marshall</h4>
+				<h5>Co-Captain</h5>
+				<p>
+					<%=mail_to "jason@codeforgreensboro.org", "jason@codeforgreensboro.org" %>
+				</p>
+			</td>
+			<td>
+				<span class="social is-active twitter">
+					<%=link_to "http://www.twitter.com/marshalljasons", "http://www.twitter.com/marshalljasons" %>
+				</span>
+				<span class="social is-active github">
+					<%=link_to "http://www.github.com/marshallj", "http://www.github.com/marshallj" %>
+				</span>
+				<span class="social dribbble"></span>
+			</td>
+		</tr>
+		<tr>
+			<td width="19%">
+				<div class="portrait">
+					<%=image_tag "rz.png" %>
+				</div>
+			</td>
+			<td class="hgroup">
+				<h4>Rob Zimmerman</h4>
+				<h5>Developer Evangelist</h5>
+				<p>
+					<%=mail_to "rob@codeforgreensboro.org", "rob@codeforgreensboro.org" %>
+				</p>
+			</td>
+			<td>
+				<span class="social is-active twitter">
+					<%=link_to "http://www.twitter.com/taintedzodiac", "http://www.twitter.com/taintedzodiac" %>
+				</span>
+				<span class="social is-active github">
+					<%=link_to "http://www.github.com/taintedzodiac", "http://www.github.com/taintedzodiac" %>
+				</span>
+				<span class="social dribbble"></span>
+			</td>
+		</tr>
+		<tr>
+			<td width="19%">
+				<div class="portrait">
+					<%=image_tag "jmo.jpg" %>
+				</div>
+			</td>
+			<td class="hgroup">
+				<h4>John Moore</h4>
+				<h5>Storyteller</h5>
+				<p>
+					<%=mail_to "john.m@codeforgreensboro.org", "john.m@codeforgreensboro.org" %>
+				</p>
+			</td>
+			<td>
+				<span class="social twitter"></span>
+				<span class="social is-active github">
+					<%=link_to "http://www.github.com/jdmoore4",
+					"http://www.github.com/jdmoore4" %>
+				</span>
+				<span class="social dribbble"></span>
+			</td>
+		</tr>
+		<tr>
+			<td width="19%">
+				<div class="portrait">
+					<%=image_tag "sm.jpg" %>
+				</div>
+			</td>
+			<td class="hgroup">
+				<h4>Sagar Mishra</h4>
+				<h5>Community Organizer</h5>
+				<p>
+					<%=mail_to "sagar@codeforgreensboro.org", "sagar@codeforgreensboro.org" %>
+				</p>
+			</td>
+			<td>
+				<span class="social twitter">
+				</span>
+				<span class="social is-active github">
+					<%=link_to "http://www.github.com/sagarmishra", "http://www.github.com/sagarmishra" %>
+				</span>
+				<span class="social dribbble"></span>
+			</td>
+		</tr>
+		<tr>
+			<td width="19%">
+				<div class="portrait">
+					<%=image_tag "wj.jpg" %>
+				</div>
+			</td>
+			<td class="hgroup">
+				<h4>Walter Jenkins</h4>
+				<h5>Nonprofit / Community Group Liaison</h5>
+				<p>
+					<%=mail_to "walter@codeforgreensboro.org", "walter@codeforgreensboro.org" %>
+				</p>
+			</td>
+			<td>
+				<span class="social is-active twitter">
+					<%=link_to "http://www.twitter.com/AvidDabbler", "http://www.twitter.com/AvidDabbler" %>
+				</span>
+				<span class="social is-active github">
+					<%=link_to "http://www.github.com/CadillacJenkins", "http://www.github.com/caCadillacJenkins" %>
+				</span>
+				<span class="social dribbble"></span>
+			</td>
+		</tr>
+	</table>
+</div>
 
-	<div class="card">
-		<div class="portrait">
-			<%=image_tag "nj.jpg" %>
-		</div>
-		<h4>Nick Jones</h4>
-		<h5>Co-Captain</h5>
-		<p class="is-centered">
-			<%=mail_to "nick@codeforgreensboro.org","nick@codeforgreensboro.org" %>
-		</p>
-	</div>
+<div class="column-right">
+	<table class="team">
+		<h5>Community Partners</h5>
+		<tr>
+			<td class="hgroup">
+				<h4>Jane Nickles</h4>
+				<h5>Municipal Partner, CIO, City of Greensboro</h5>
+				<p>
+					Jane Nickles in an accomplished technology professional with many years of experience, nine of which have been spent managing the City of Greensboro’s IT Network Services Division. Nickles manages the city’s end to end technology infrastructure as well as its many developers, and has valuable experience as a project manager, database administrator and developer.
+				</p>
 
-	<div class="card">
-		<div class="portrait">
-			<%=image_tag "jm.jpg" %>
-		</div>
-		<h4>Jason Marshall</h4>
-		<h5>Co-Captain</h5>
-		<p class="is-centered">
-			<%=mail_to "jason@codeforgreensboro.org","jason@codeforgreensboro.org" %>
-		</p>
-	</div>
+				<p>
+					Nickles began with the City in 1983 as a programmer analyst and became a GIS application developer in 1995 and database administrator in 2000 before being appointed a division manager in 2005. During her retirement, Nickles provided IT project management consulting services for project such as infrastructure upgrades, enterprise rollouts, software integration and application development services for web-based systems and database design.
+				</p>
 
-	<div class="card">
-		<div class="portrait">
-			<%=image_tag "rz.png" %>
-		</div>
-		<h4>Rob Zimmerman</h4>
-		<h5>Developer Evangelist</h5>
-		<p class="is-centered">
-			<%=mail_to "rob@codeforgreensboro.org","rob@codeforgreensboro.org" %>
-		</p>
-	</div>
-
-	<div class="card">
-		<div class="portrait">
-			<%=image_tag "jmo.jpg" %>
-		</div>
-		<h4>John Moore</h4>
-		<h5>Storyteller</h5>
-		<p class="is-centered">
-			<%=mail_to "john.m@codeforgreensboro.org","john.m@codeforgreensboro.org" %>
-		</p>
-	</div>
-
-	<div class="card">
-		<div class="portrait">
-			<%=image_tag "sm.jpg" %>
-		</div>
-		<h4>Sagar Mishra</h4>
-		<h5>Community Organizer</h5>
-		<p class="is-centered">
-			<%=mail_to "sagar@codeforgreensboro.org","sagar@codeforgreensboro.org" %>
-		</p>
-	</div>
-
-	<div class="card">
-		<div class="portrait">
-			<%=image_tag "wj.jpg" %>
-		</div>
-		<h4>Walter Jenkins</h4>
-		<h5>Nonprofit / Community Group Liaison</h5>
-		<p class="is-centered">
-			<%=mail_to "walter@codeforgreensboro.org","walter@codeforgreensboro.org" %>
-		</p>
-	</div>
-
+				<p>
+					Code for Greensboro has found an enthusiastic partner in Jane Nickles. She has worked with us to help direct our efforts, and open doors within the city. We are thrilled and fortunate to have her involvement and support.
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td class="hgroup">
+				<h4>Stephen Sills</h4>
+				<h5>Assistant Professor UNCG Center for Housing and Community Studies</h5>
+			</td>
+		</tr>
+		<tr>
+			<td class="hgroup">
+				<h4>Joyce Clapp</h4>
+				<h5>Lecturer, UNCG Center for Housing and Community Studies</h5>
+			</td>
+		</tr>
+		<tr>
+			<td class="hgroup">
+				<h4>Dr. Marianne Legreco</h4>
+				<h5>Associate Professor UNCG Communications</h5>
+			</td>
+		</tr>
+		<tr>
+			<td class="hgroup">
+				<h4>Dr. Randall Hayes</h4>
+				<h5>Fullbright Commission, NC Governor's School (Salem College)</h5>
+			</td>
+		</tr>
+		<tr>
+			<td class="hgroup">
+				<h4>Kathleen Edwards</h4>
+				<h5>Program Director, Interactive Resource Center</h5>
+			</td>
+		</tr>
+	</table>
+</div>
 
 </div>
