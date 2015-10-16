@@ -151,6 +151,7 @@ header.internal {
 .banner {
 	background: #111;
 	text-align: center;
+	padding: $base-spacing 0;
 
 	h2, h5 {
 		margin: 0;
@@ -159,8 +160,12 @@ header.internal {
 	h2 {
 		font-size: 1.3rem;
 		font-weight: bold;
-		color: lighten($blue, 10%);
+		color: #d7d7d7;
 		line-height: 2;
+		a {
+			color: #fff;
+			border-bottom: 1px dotted #fff;
+		}
 	}
 	.join {
 		color: #fff;
