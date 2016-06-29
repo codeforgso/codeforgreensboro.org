@@ -224,7 +224,7 @@ GEM
       multi_xml (~> 0.5)
       rack (~> 1.2)
     orm_adapter (0.5.0)
-    pg (0.17.1)
+    pg (0.18.4)
     poltergeist (1.5.1)
       capybara (~> 2.1)
       cliver (~> 0.3.1)
@@ -388,7 +388,7 @@ DEPENDENCIES
   metamagic (~> 3.1.6)
   nav_lynx (~> 1.1.1)
   neat
-  pg (~> 0.17.1)
+  pg (~> 0.18.4)
   poltergeist (~> 1.5.1)
   pony (~> 1.11)
   pry
