@@ -3,11 +3,18 @@
 #
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'sqlite3'
+
+# TODO: change password, username, host, and port to environment variables
+
 development:
   adapter: postgresql
   database: db/dev_cfg
   pool: 5
   timeout: 5000
+  password: password
+  username: postgres
+  host: localhost
+  port: 8080
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -17,9 +24,17 @@ test:
   database: db/test_cfg
   pool: 5
   timeout: 5000
+  password: password
+  username: postgres
+  host: localhost
+  port: 8080
 
 production:
   adapter: postgresql
   database: db/prod_cfg
   pool: 5
   timeout: 5000
+  password: password
+  username: postgres
+  host: localhost
+  port: 8080
